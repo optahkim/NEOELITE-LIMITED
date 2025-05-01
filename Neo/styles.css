@@ -1,0 +1,126 @@
+ 
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      font-size: 20px;
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: whitesmoke;
+      line-height: 1.6;
+      background-color: #003366;
+      
+    }
+    .tag {
+      color: #f0f;
+      font-size: 1.3rem;
+      text-shadow: 0 0 10px #f0f;
+    }
+home {
+    font-family: 'monotype corsiva', monospace;
+      padding: 20px;
+      text-align: center;
+    }
+    section {
+      margin: 50px 0;
+      padding: 30px;
+      border: 3px solid #0ff;
+      border-radius: 15px;
+      background: #111;
+      box-shadow: 0 0 20px #0ff;
+    }
+    h1, h2 {
+      color: rgb(89, 0, 255);
+     
+    }
+    h1 {
+      font-size: 2.5em;
+    }
+    h2 {
+      font-size: 2em;
+    }
+    p {
+      margin: 10px 0;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    li {
+      margin: 10px 0;
+
+}
+
+    
+    
+    .hero-image {
+      width: 100%;
+      height: auto;
+      max-height: 400px;
+      object-fit: cover;
+    }
+    .hero-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      text-align: center;
+    }
+    .hero-text h1 {
+      font-size: 3em;
+    }
+    .hero-text p {
+      font-size: 1.5em;
+
+}
+    header {
+      background-color: #003366;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #00509e;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    footer {
+      background-color: #003366;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    .cta-button {
+      background-color: #007b5e;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      display: inline-block;
+      margin-top: 20px;
+    }
+    .social-icons a {
+      margin: 0 10px;
+      color: white;
+    }
+    @media (max-width: 600px) {
+      nav a {
+        display: block;
+        margin: 10px 0;
+      }
+    }
+  
